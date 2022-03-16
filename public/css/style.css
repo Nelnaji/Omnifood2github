@@ -297,3 +297,79 @@ Letter spacing :
     /* add negative value to push it to the top */
     z-index: -1;
 }
+
+/* *************************************/
+/*   Meals + diet section */
+.section-meals {
+    padding: 9.6rem 0;
+}
+
+.meal-title {
+    font-size: 2rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 3.2rem;
+}
+
+.meal-attributes {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.meal-attribute {
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.meal-img {
+    width: 100%;
+}
+
+.meal-icon {
+    height: 2.4rem;
+    width: 2.4rem;
+    color: #e67e22;
+}
+
+.meal-tags {
+    margin-bottom: 1.2rem;
+    display: flex;
+    gap: 0.4rem;
+}
+
+.meal {
+    box-shadow: 0 1rem 2rem 0 hsla(0, 0%, 0%, 0.151);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+
+.meal:hover {
+    transform: translateY(-1rem);
+    box-shadow: 0 1.5rem 2rem 0 hsla(0, 0%, 0%, 0.16);
+}
+
+.meal-content {
+    padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.tag--paleo {
+    background-color: #fcc419;
+}
+
+.tag--vegan {
+    background-color: #51cf66;
+}
+
+.tag--vegetarian {
+    background-color: #94d82d;
+}
+
+.all-recipes {
+    text-align: center;
+    font-size: 1.8rem;
+}
